@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.footer-p{
+    color: #707070;
+    font-size: 12px;
+}
+.footer-p:hover{
+    text-decoration: underline;
+
+}
+
+.footer-menu-div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.translate-class{
+    transform: translateX(-50rem);
+}
+
+/* .translate-class{
+    transform: translateX(-300px);
+}
+
+.translate-class{
+    transform: translateX(-300px);
+} */

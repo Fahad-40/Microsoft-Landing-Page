@@ -1,0 +1,18 @@
+{
+  "name": "Microsoft_Clone",
+  "version": "1.0.0",
+  "main": "index.js",
+
+  
+  "repository": "https://github.com/Fahad-40/Microsoft-Landing-Page.git",
+  "scripts": {
+  "dev": "tailwindcss -i ./input.css -o ./output.css --watch"
+},
+  "author": "Fahad <fahad05munir@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "3"
+  }
+}
