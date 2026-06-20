@@ -3,6 +3,13 @@
 
     hamburgerBtn.addEventListener("click" , () =>{
 mobileMenu.classList.toggle("translate-class");
-e.stop
+e.stopPropagation();
 console.log("button clicked!");
     });
+
+
+  document.addEventListener("click" , () =>{
+
+
+    
+  })  
